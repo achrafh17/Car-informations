@@ -1,0 +1,104 @@
+body {
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.main {
+  width: 65%;
+  height: 70vh;
+  background-color: white;
+  margin-top: 10vh;
+  display: flex;
+
+}
+.sedans {
+  width: 33.33%;
+  height: 100%;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.suvs {
+  width: 33.33%;
+  height: 100%;
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  width: 33.33%;
+  height: 100%;
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#carlogo {
+  width: 80px;
+  height: 50px;
+  padding-left: 15%;
+  padding-top: 15%;
+}
+#typecar {
+  padding-left: 15%;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+#description {
+    color: hsl(0, 2%, 91%);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 14px ;
+    font-weight: 400;
+    padding-left: 15%;
+    padding-right: 14%;
+    
+}
+button {
+    position: absolute;
+    top: 65%;
+    margin-left: 3%;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+#learnsedan {
+    color:hsl(31, 77%, 52%) ;
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+}
+#learnsuv {
+   color:hsl(184, 100%, 22%) ;
+   font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+}
+#learnluxury {
+    color: hsl(179, 100%, 13%);
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+}
+#a:hover {
+    background-color:hsl(31, 77%, 52%);
+    border: 1px solid white;
+}
+#b:hover {
+    background-color:hsl(184, 100%, 22%) ;
+    border: 1px solid white;
+}
+#c:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid white;
+}
+#a:hover #learnsedan {
+    color: white;
+
+}
+#b:hover #learnsuv {
+    color: white;
+
+}
+#c:hover #learnluxury {
+    color: white;
+
+}
